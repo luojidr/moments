@@ -1,0 +1,19 @@
+-r ./base.txt
+
+uWSGI==2.0.18                           # https://uwsgi-docs.readthedocs.io/en/latest/
+
+# Django Profile
+# ------------------------------------------------------------------------------
+django-debug-toolbar==3.1.1     # https://github.com/jazzband/django-debug-toolbar
+pympler==1.0.1                  # https://github.com/pympler/pympler
+django-debug-panel==0.8.3       # https://github.com/recamshak/django-debug-panel
+
+# Code quality
+# ------------------------------------------------------------------------------
+flake8==3.8.4           # https://github.com/PyCQA/flake8
+flake8-isort==3.0.0     # https://github.com/gforcada/flake8-isort
+coverage==5.1           # https://github.com/nedbat/coveragepy
+black==19.10b0          # https://github.com/ambv/black
+pylint-django==2.0.15   # https://github.com/PyCQA/pylint-django
+pylint-celery==0.3      # https://github.com/PyCQA/pylint-celery
+pre-commit==2.3.0       # https://github.com/pre-commit/pre-commit
